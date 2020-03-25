@@ -1,0 +1,223 @@
+
+.window {
+background-color: #D0E4F5;
+background-image: url("https://css-tricks.com/wp-content/uploads/2018/10/justify-content.svg");
+background-repeat: repeat;
+background-attachment: fixed;
+background-position: -11px -4px;
+width: 100%;
+height: 100px;
+}
+
+
+/**** for containers *****/
+.display-flex {
+	display: flex;
+}
+
+.display-iflex {
+	display: inline-flex;
+}
+/* flex-direction’ */
+.row {
+	
+}
+
+.row-rev {
+	
+}
+
+.col {
+	
+}
+
+.col-rev {
+	
+}
+/* flex-wrap */
+.wrap-no {
+	
+}
+
+.wrap-wrap {
+	
+}
+
+.wrap-rev {
+	
+}
+
+.flow { /*flex-flow: <‘flex-direction’> || <‘flex-wrap’>*/
+	
+}
+/* justify-content*/
+.flex-start {
+	
+}
+
+.flex-end {
+	
+}
+
+.start {
+	
+}
+
+.end {
+	
+}
+
+.right {
+	
+}
+
+.left {
+	
+}
+
+.center {
+	
+}
+
+.space-betw {
+	
+}
+
+.space-around {
+	
+}
+
+.space-even {
+	
+}
+/* align-items */
+.flex-start {
+	
+}
+
+.flex-end {
+	
+}
+
+.center {
+	
+}
+
+.stretch {
+	
+}
+
+.baseline {
+	
+}
+/* align-content */
+.flex-start {
+	
+}
+
+.flex-end {
+	
+}
+
+.center {
+	
+}
+
+.stretch {
+	
+}
+
+.space-betw {
+	
+}
+
+.space-around {
+	
+}
+
+.space-even {
+	
+}
+
+
+/*******Items*******/
+.order-1 {
+	
+}
+
+.order--1 {
+	
+}
+
+.grow-1 {
+	
+}
+
+.grow-2 {
+	
+}
+
+.shrink-0 {
+	
+}
+
+.shrink-3 {
+	
+}
+
+.basis-25% {
+	
+}
+
+.basis-50% {
+	
+}
+
+.flex-combo { /*flex: none|flex-grow|flex-shrinkflex-basis*/
+	
+}
+
+/*align-self*/
+.self-auto {
+	
+}
+
+.self-start {
+	
+}
+
+.self-end {
+	
+}
+
+.self-center {
+	
+}
+
+.self-base {
+	
+}
+
+.self-stretch {
+	
+}
+
+. {
+	
+}
+
+. {
+	
+}
+
+. {
+	
+}
+
+. {
+	
+}
+
+. {
+	
+}
