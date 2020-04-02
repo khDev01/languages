@@ -14,6 +14,7 @@ height: 100px;
 	margin: 0;*/
 	list-style: none;
 	background-color: #1496BB;
+	max-width: 50%;
 
 	display: flex;
 	display: -webkit-box;
@@ -26,6 +27,19 @@ height: 100px;
 	justify-content: space-around;*/
 }
 
+.full-width {
+ min-width: 100%;
+}
+
+.float {
+ float: left;
+}
+
+
+.br-col {
+ width: 22px;
+}
+
 .not-flex-container{
 	/*padding: 0;
 	margin: 0;*/
@@ -36,10 +50,10 @@ height: 100px;
 .flex-item {
 	background: tomato;
 	padding: 5px;
-	width: 150px;
-	height: 100px;
+	width: 2em;
+	height: 1.5em;
 	margin: 10px 5px 10px 5px;
-	line-height: 100px;
+	line-height: 1.3em;
 	color: white;
 	font-weight: bold;
 	font-size: 2em;
