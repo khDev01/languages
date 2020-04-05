@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>How To</title>
+	<link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="buttons.css">
+</head>
+
+<body>
+	<nav class="nav">
+		<a href="index.html" class="active"> Home</a>
+		<a href="html.html" class="">HTML</a>
+		<a href="css.html" class="">CSS</a>
+		<a href="js.html" class="">JavaScript</a>
+		<a href="php.html" class="">PHP</a>
+		<a href="mysql.html" class="">MySQL</a>
+		<!-- <a href="https://www.w3schools.com/whatis/default.asp">Roadmap</a> -->
+	</nav>
+
+	<main class="mcontainer">
+		<div class="container">
+
+			<h1>buttons</h1>
+
+			<button class="btn-simple green">Flat</button>
+			<button class="btn-simple r5 blue">Flat</button>
+			<button class="btn-simple r10 orange">Flat</button>
+
+
+			<button class="btn-border border-green">Outline</button>
+			<button class="btn-border r5 border-green">Outline</button>
+			<button class="btn-border r10 border-green">Outline</button>
+
+
+
+
+
+
+
+			<br><br>
+			<div class="drp-hover">
+				<button class="btn-hover">Dropdown</button>
+				<div class="drp-hover-content">
+					<a href="#">Link 1</a>
+					<a href="#">Link 2</a>
+					<a href="#">Link 3</a>
+				</div>
+			</div>
+			<br><br>
+			<div class="drp-click">
+			  <button onclick="showDrp()" class="btn-click">Dropdown</button>
+			  <div id="drpContent" class="drp-click-content">
+					<a href="#">Link 1</a>
+					<a href="#">Link 2</a>
+					<a href="#">Link 3</a>
+				</div>
+			</div>
+			<br><br>
+
+			<h2>Animated Buttons</h2>
+			<button class="btn-press">Click Me</button>
+<br><br>
+			<button class="btn-slide">Hover Me</button>
+
+
+
+
+
+		</div>
+
+
+
+
+
+
+
+
+		<script>
+		/* When the user clicks on the button,
+		toggle between hiding and showing the dropdown content */
+		function showDrp() {
+		  document.getElementById("drpContent").classList.toggle("show");
+		}
+
+		// Close the dropdown if the user clicks outside of it
+		window.onclick = function(event) {
+		  if (!event.target.matches('.btn-click')) {
+		    var dropdowns = document.getElementsByClassName("drp-click-content");
+		    var i;
+		    for (i = 0; i < dropdowns.length; i++) {
+		      var openDropdown = dropdowns[i];
+		      if (openDropdown.classList.contains('show')) {
+		        openDropdown.classList.remove('show');
+		      }
+		    }
+		  }
+		}
+		</script>
+
+	</main>
+
+</body>
+</html>

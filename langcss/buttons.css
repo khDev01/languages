@@ -1,0 +1,187 @@
+.btn-simple {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.green {background-color: #4CAF50;}
+.green:hover {background-color: #46a049;}
+
+.blue {background-color: #2196F3;}
+.blue:hover {background: #0b7dda;}
+
+.orange {background-color: #ff9800;}
+.orange:hover {background: #e68a00;}
+
+.red {background-color: #f44336;}
+.red:hover {background: #da190b;}
+
+.grey {background-color: #e7e7e7; color: black;}
+.grey:hover {background: #ddd;}
+
+.btn-border {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.border-green {
+  border-color: #4CAF50;
+  color: green;
+}
+
+.border-green:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.r5 {
+  border-radius: 5px;
+}
+
+.r10 {
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* dropdowns*/
+.drp-hover, .drp-click {
+  position: relative;
+  display: inline-block;
+}
+
+.btn-hover, .btn-click {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.drp-hover-content, .drp-click-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 110px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.drp-hover-content a, .drp-click-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.drp-hover-content a:hover {background-color: #ddd;}
+
+.drp-hover:hover .drp-hover-content {display: block;}
+
+.drp-hover:hover .btn-hover {background-color: #3e8e41;}
+
+/*click dropdown*/
+.btn-click {
+  background-color: #3498DB;
+  cursor: pointer;
+}
+
+.btn-click:hover, .btn-click:focus {
+  background-color: #2980B9;
+}
+
+.drp-click-content {
+  overflow: auto;
+}
+
+.drp-click a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+/******Animated btn-slides*******/
+.btn-press {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.btn-press:hover {background-color: #3e8e41}
+
+.btn-press:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.btn-slide {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.btn-slide span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-slide span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn-slide:hover span {
+  padding-right: 25px;
+}
+
+.btn-slide:hover span:after {
+  opacity: 1;
+  right: 0;
+}
