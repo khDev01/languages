@@ -44,10 +44,10 @@ body {
 main.mcontainer {
 	margin-top: 40px; /*content below nav*/
 	margin-right: 20px;
-	margin-left: 20px; /*
-	padding-top: 20px;*/
-	display: inline-flex;
-	justify-content: center;
+	margin-left: 20px;
+	padding-top: 16px;
+	/* display: inline-flex; */
+	/* justify-content: center; */
 }
 
 main.mcsscontainer {
@@ -56,7 +56,6 @@ main.mcsscontainer {
 	margin-left: 20px; /*
 	padding-top: 20px;*/
 }
-
 
 .container {
   padding: 8px 14px;
@@ -103,10 +102,11 @@ main.mcsscontainer {
 	width: 100%;
 }
 
-.output, code {
+
+/* .output, code {
 	background-color: #cccccc;
 	padding: 1px 4px;
-	/*color: #fff;*/
+	/*color: #fff;*
 }
 
 pre {
@@ -114,7 +114,7 @@ pre {
 	white-space: wrap;
 	width: 200%;
 
-}
+} */
 
 /**** in progress section *****/
 .unfinishede {
@@ -129,3 +129,26 @@ ul.to-do {
 li {
 
 }
+
+pre {
+	margin-bottom: 1em;
+	padding: 12px 8px;
+	width: auto;
+	max-height: 600px;
+	overflow: auto;
+	font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,sans-serif;
+	font-size: 13px;
+	background-color: #eff0f1;
+	border-radius: 3px;
+	scrollbar-color: rgba(0,0,0,0.2) transparent;
+}
+
+code {
+	font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,sans-serif;
+	background-color: var(--black-050);
+}
+
+.tag {color: red;}
+.value {color: green}
+.php {color: purple;}
+.var {color: turquoise}
