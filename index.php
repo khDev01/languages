@@ -1,6 +1,6 @@
 <?php $title = 'Home'; ?>
 <?php $metaTags = 'tag1 tag2'; ?>
-<?php $currentPage = '/'; ?>
+<?php $currentPage = 'home'; ?>
 <?php include('head.php'); ?>
 <body>
 <?php include('nav-bar.php'); ?>

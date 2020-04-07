@@ -1,11 +1,11 @@
 <?php $title = 'Home'; ?>
 <?php $metaTags = 'tag1 tag2'; ?>
-<?php $currentPage = 'home'; ?>
+<?php $currentPage = 'css'; ?>
 <?php include('head.php'); ?>
 <body>
 <?php include('nav-bar.php'); ?>
 
-<nav class="nav">
+<!-- <nav class="nav">
   <a href="index.html" class=""> Home</a>
   <a href="html.html" class="">HTML</a>
 
@@ -21,7 +21,7 @@
   <a href="js.html" class="">JavaScript</a>
   <a href="php.html" class="">PHP</a>
   <a href="mysql.html" class="">MySQL</a>
-</nav>
+</nav> -->
 
 
 <main class="mcontainer">
