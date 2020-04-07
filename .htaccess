@@ -1,5 +1,15 @@
-
 DirectoryIndex index.php index.html
+
+
+
+#RewriteCond %{REQUEST_FILENAME}.html -f
+#RewriteRule !.*\.html$ %{REQUEST_FILENAME}.html [L]
+
+# remove .php extention
+
+#RewriteEngine on
+#RewriteCond %{REQUEST_FILENAME}.php -f
+#RewriteRule !.*\.html$ %{REQUEST_FILENAME}.php [L]
 
 # HTID:12086125: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
 php_value display_errors 1

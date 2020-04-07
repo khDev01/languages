@@ -16,8 +16,5 @@
       print '<a '.(($currentPage === $name) ? ' class="active" ': '').' href="'.$url.'">'.$name.'</a>';
     }
 
-    // if ($currentPage === css) {
-    //   // code...
-    // }
   ?>
 </nav>
