@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <a href="index.html" class="active"> Home</a>
+      <!-- <a href="html.html" class="">HTML</a>
+      <a href="css.html" class="">CSS</a>
+      <a href="js.html" class="">JavaScript</a>
+      <a href="php.html" class="">PHP</a>
+      <a href="mysql.html" class="">MySQL</a> -->
+      <a href="https://www.w3schools.com/whatis/default.asp">Roadmap</a>
+    </nav>
+
+    <nav class="sidenav">
+      <a href="forms.html" class="">Forms PHP</a>
+      <a href="css.html" class=""></a>
+      <a href="js.html" class=""></a>
+      <a href="php.html" class=""></a>
+      <a href="mysql.html" class=""></a>
+    </nav>
+    <main class="main">
+
+      <h3>form handling</h3>
+      <h4>POST</h4>
+      <form action="php/forms.php" method="post">
+        Name: <input type="text" name="pname"><br>
+        <input type="submit">
+      </form>
+
+      <h4>GET</h4>
+      <form action="php/forms.php" method="get">
+        Name: <input type="text" name="gname"><br>
+        <input type="submit" value="submit">
+      </form>
+
+      <!-- <h4></h4>
+      <p>GET and POST are superglobals, therefore can be accessed form any scope</p>
+      both are an array of variables
+      GET passed via URL
+      POST passed via HTTP POST method
+
+      Get - about 2000 chars
+        non-sensitive data
+
+      POST - no limit
+        sentitive data -->
+
+      <h3>Form validation</h3>
+      <h4></h4>
+      Name: <input type="text" name="name">
+      E-mail: <input type="text" name="email">
+      Website: <input type="text" name="website">
+      Comment: <textarea name="comment" rows="5" cols="40"></textarea>
+      Gender:<input type="radio" name="gender" value="female">Female
+      <input type="radio" name="gender" value="male">Male
+      <input type="radio" name="gender" value="other">Other
+      <h4></h4>
+
+
+
+    </main>
+  </body>
+</html>
